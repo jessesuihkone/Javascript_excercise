@@ -11,4 +11,6 @@
 
     alert(course + " and also " + monki + " age over " + age + " and under " + var1 + " at the exception of " + var2);
 
-
+    console.log("LOG")
+    console.warn("WARNING")
+    console.error("ERROR")
