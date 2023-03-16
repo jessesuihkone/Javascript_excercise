@@ -1,8 +1,10 @@
-var input = prompt("What course are you taking?");
+var input = prompt("What is your age?");
 var inputLower = input.toLocaleLowerCase();
 
 var text = document.getElementById("text");
 
-if(inputLower == "javascript for beginners") {
-    text.innerHTML = "<strong>WELCOME</strong> to JavaScript for <strong>Beginners</strong>";
+if(input <= "18") {
+    text.innerHTML = "You are underage";
+} else {
+    text.innerHTML = "Welcome to this website!";
 }
