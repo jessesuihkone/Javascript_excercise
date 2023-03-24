@@ -33,7 +33,7 @@ console.log(isCat, typeof(isCat))
 var course = "JS for Beginners";
 course = Array(course)
 */
-
+/*
 var age = 21;
 if(age >= 18) {
     console.log("You can vote!")
@@ -42,3 +42,19 @@ if(age >= 18) {
 if(age >= 21) {
     console.log("You drink alcohol")
 }
+*/
+/*
+var fullName = "Kalob Taulien";
+if(fullName.length <= 10) {
+    console.log("Total length is <= 10", name.length)
+
+}
+*/
+
+var age = "30";
+if(age === 30) {
+    console.log("You are thirty")
+} else {
+    console.warn("Wrong data type")
+}
+
