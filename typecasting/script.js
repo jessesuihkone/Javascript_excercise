@@ -1,6 +1,6 @@
 
 
-
+/*
 var age = "30";
 age = Number(age);
 console.log(typeof(age))
@@ -32,3 +32,13 @@ console.log(isCat, typeof(isCat))
 
 var course = "JS for Beginners";
 course = Array(course)
+*/
+
+var age = 21;
+if(age >= 18) {
+    console.log("You can vote!")
+}
+
+if(age >= 21) {
+    console.log("You drink alcohol")
+}
