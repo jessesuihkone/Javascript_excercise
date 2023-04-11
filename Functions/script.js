@@ -1,10 +1,7 @@
-    var koo = prompt("eka numero:");
-    var kaa = prompt("toka numero:");
+var num1 = prompt("numero:")
+var num2 = prompt("numero:")
 
-
-    
-    function addTwoNumbers(koo, kaa) {
-    const sum = koo + kaa;
-    
-  }
-
+function multiply() {
+  console.log(
+  return num1 * num2)
+}
