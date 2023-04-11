@@ -16,4 +16,3 @@ function calculate() {
 
     span.innerText = totalValue;
 }
-
