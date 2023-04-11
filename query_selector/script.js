@@ -13,8 +13,12 @@ small.innerText = "miniteksti"
 var a = document.querySelector("a")
 a.innerText = "Link text"
 
+var paal = prompt("List part number 9")
 
 // Change list properties
 var lis = document.querySelectorAll("li")
 lis[0].innerText = "ANYTHING I WANT"
 lis[4].innerHTML = "<a href='#'>HI HI HI HI</a>"
+
+lis[8].innerText = paal;
+
