@@ -13,11 +13,21 @@ const changeBgBtnDog = document.getElementById('bg-img-dog');
 changeBgBtnDog.addEventListener('click', () => {
   body.style.backgroundImage = "url('dog.png')";
 });
+/*
+const rattlesnake = document.getElementById("kaarme");
 
-const rattlesnake = document.querySelector('firstInput');
+rattlesnake.addEventListener('click', function() {
+  const bgImg = getComputedStyle(rattlesnake).backgroundImage;
+  if (bgImg.includes("url('dog.png'")) {
+    alert('Background image: DOG!');
+  }
+});
+*/
+const myDiv = document.getElementById('myDiv');
 
-rattlesnake.addEventListener('mouseover', function() {
-  if(body.style.backgroundImage = "url('dog.png')") {
-    alert("DOG BACKGROUND")
+myDiv.addEventListener('click', function() {
+  const bgImg = getComputedStyle(body).backgroundImage;
+  if (bgImg.includes('dog.png')) {
+    alert('Background image detected!');
   }
 });
