@@ -1,4 +1,4 @@
-var animals = ['cat', 'dog', 'fish', 'bird', 'kangaroo', 'monkey', '' ];
+var animals = ['cat', 'dog', 'fish', 'bird', 'kangaroo', 'monkey', 'penguin' ];
 
 var output = document.getElementById("output");
 
