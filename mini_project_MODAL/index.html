@@ -5,20 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Modal</title>
 </head>
 <body>
-    <button type="button" id="openBtn"></button>
+    <button class="btn btn-primary btn-lg" id="myBtn">Open Modal</button>
 
-    <div id="modal">
-        <div id="modal-content">
-            <span></span>
-            <p></p>
-        </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">SULJE</span>
+      <h2>Modal Header</h2>
     </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
 
+</div>
     <script src="script.js"></script>
 </body>
 </html>
