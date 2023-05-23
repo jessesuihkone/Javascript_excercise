@@ -63,3 +63,33 @@ li {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.container p:first-of-type {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.container p:last-of-type {
+    text-align: justify;
+}
+
+.container ul {
+    margin-bottom: 30px;
+}
+
+.container ul li {
+    margin-left: 20px;
+}
+
+.container ul li:before {
+    content: "•";
+    color: #888888;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.container ul li:last-child {
+    margin-bottom: 0;
+}
+
