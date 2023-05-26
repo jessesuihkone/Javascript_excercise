@@ -2,6 +2,12 @@ const h1 = document.querySelector("h1")
 const letters = h1.innerText.split('')
 let html = ""
 
+
+// Define RandColor() to make randomized color
+const randColor = () =>  {
+    return "#" + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0').toUpperCase();
+}
+
 letters.forEach(letter => {
     let classes = ''
     if(letter !== ' ') {
@@ -13,13 +19,16 @@ letters.forEach(letter => {
 h1.innerHTML = html
 const jsLetters = document.querySelectorAll(".js-letter")
 jsLetters.forEach(node => {
-    node.addEventListener("mousdeover", function(event) {
+    
+    node.addEventListener("mouseover", function(event) {
         this.classList.add("active")
+        node.style.color = randColor();
     })
     node.addEventListener("mouseout", function(event) {
         this.classList.remove("active")
     })
 })
+
 
 
 
